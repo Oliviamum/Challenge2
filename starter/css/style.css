@@ -6,13 +6,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  line-height; 1.5;
 }
 .container{
-    position: relative;
-    width: 1200 px;
-    height: 300px
-    margin: 240px auto;    
+    position; relative;
+    width: 1200px;px;
+    height:300px
+    margin:240px auto;   
+}
+conyainer .box{
+  position: relative;
+  width: calc 400px-30px;
+  height: calc 300p 30
+
 }
 h1,
 h2,
