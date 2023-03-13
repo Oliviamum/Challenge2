@@ -1,30 +1,117 @@
-* {
-  box-sizing: border-box;
+body { 
+  font-family: 'Poppins', sans-serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height; 1.5;
-}
-.container{
+
+/*Hero section*/
+.herosection{
+  height: 300px;
+  background-image: url('../images/edu1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 40%;    
+  }
+
+  .hero-text button{
+    text-align: center;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(red, green, blue);
+    background-color: #000000;
+    cursor: pointer;
+  }
+
+   .hero-text button:hover{
+   background-color: red;
+   color: white;
+   }
+
+   /*Navigation section*/
+   #navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+   }
+   #navBar h1{
+    width: 50%;
+    font-weight: 500;
+    }
+    #navigation  {
+      display: flex;
+      width: 50%;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    #navigation a {
+      cursor: pointer;
+      text-decoration: none;
+    
+    }
+    #navigation a:hover {
+    color: rgb(red, green, blue)
+    }
+    /* typography CSS */
+
+
+    h2 {
+      font-size: 60px;
+      margin: 0px,0px;
+      color: rgb(red, green, blue)
+    }
+
+     
+    h3 {
+      font-size: 32px;
+      font-weight: 400;
+      margin: 22px;
+    }
+    h4 {
+      color: white;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 22px;
+    }
+    .flexitem {
+      margin: 10px;
+      padding: 10px;
+      width: 250px;
+      height: 250px;
+    }
+    .flexContainer {
+     display:flex;
+     height: 400px;
+    margin: 10px;
+    padding: 10px;
+    }
+    
+
+
+
+
+
+
+      .container{
     position; relative;
     width: 1200px;px;
     height:300px
     margin:240px auto;   
 }
-conyainer .box{
+container .box{
   position: relative;
   width: calc 400px-30px;
   height: calc 300p 30
 
 }
-h1,
-h2,
-h3,
-h4,
-h5,
+
 h6 {
   margin: 0;
 }
