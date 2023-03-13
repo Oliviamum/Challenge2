@@ -97,38 +97,3 @@ body {
 
 
 
-
-
-      .container{
-    position; relative;
-    width: 1200px;px;
-    height:300px
-    margin:240px auto;   
-}
-container .box{
-  position: relative;
-  width: calc 400px-30px;
-  height: calc 300p 30
-
-}
-
-h6 {
-  margin: 0;
-}
-section {
-  background-color: white;
-  color: grey;
-  padding: 70px;
-  display: flex;
-  flex-direction: coloum;
-
-  .flex-items {
-  }
-   };
-   .containerGrid{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25% 25%
-   } 
-}
-
-
